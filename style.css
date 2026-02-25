@@ -1,0 +1,93 @@
+:root {
+    /* Primary*/
+--Blue-500: hsl(215, 51%, 70%);
+--Cyan-400: hsl(178, 100%, 50%);
+
+  /* Neutral*/
+
+--Blue-950 : hsl(217, 54%, 11%);
+--Blue-900 : hsl(216, 50%, 16%);
+--Blue-800 : hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-size: 18px;
+    font-family: 'outfit', sans-serif;
+}
+
+body {
+    background-color: var(--Blue-950);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteiner {
+    background: var(--Blue-900);
+    width: 300px;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cubo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    color: var(--White);
+    font-weight: 600;
+}
+ 
+.avatar {
+    width: 10%;
+    border: 2px solid var(--White);
+    border-radius: 50%;
+    height: 5%;
+}
+
+.nome-img {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    justify-items: center;
+    border-top: 2px solid var(--Blue-800);
+}
+
+p{
+    color: var(--Blue-500);
+    font-weight: 400;
+}
+
+.branco {
+    color: var(--White);
+}
+
+.icone-tex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eht {
+    color: var(--Cyan-400);
+    background-image: url(nft-preview-card-component-main/images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 20px;
+}
+
+.icon {
+    background-image: url(nft-preview-card-component-main/images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: -1px;
+    padding: 0px 0px 0px 25px;
+    background-size: 19px;
+}
+
